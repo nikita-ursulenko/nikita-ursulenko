@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 240" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nikita Ursulenko — Full-stack developer">
+  <title>Nikita Ursulenko</title>
+  <desc>Full-stack · TypeScript · AI-native apps</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111c"/>
+      <stop offset="0.55" stop-color="#0a2230"/>
+      <stop offset="1" stop-color="#0b2e2b"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="0.5" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <ellipse cx="600" cy="108" rx="440" ry="120" fill="url(#halo)"/>
+
+  <!-- floating particles -->
+  <g fill="#5eead4">
+    <circle cx="150" cy="60" r="2.5"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="70" r="2"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="46" r="1.6"><animate attributeName="opacity" values="0.1;0.75;0.1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="44" r="1.6"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="150" r="1.8"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="150" r="1.8"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- name + subtitle -->
+  <text x="600" y="112" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#f8fafc" letter-spacing="1">Nikita Ursulenko</text>
+  <text x="600" y="150" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="17" letter-spacing="6" fill="#5eead4">FULL-STACK · TYPESCRIPT · AI-NATIVE</text>
+
+  <!-- animated aurora waves -->
+  <g>
+    <path fill="url(#w1)" opacity="0.30" d="M-300,205 q150,-34 300,0 t300,0 t300,0 t300,0 t300,0 t300,0 V240 H-300 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#w2)" opacity="0.55" d="M-300,214 q150,30 300,0 t300,0 t300,0 t300,0 t300,0 t300,0 V240 H-300 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#0b1120" opacity="0.9" d="M-300,224 q150,-20 300,0 t300,0 t300,0 t300,0 t300,0 t300,0 V240 H-300 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
