@@ -71,16 +71,6 @@ I turn messy workflows into fast, reliable apps — from realtime dashboards to 
 
 ---
 
-### 📈 Activity · Активность
-
-<div align="center">
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=nikita-ursulenko&bg_color=0f172a&color=14b8a6&line=14b8a6&point=ffffff&area=true&area_color=14b8a6&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph"/>
-
-</div>
-
----
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:14b8a6&height=120&section=footer" alt="footer"/>
